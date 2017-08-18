@@ -52,6 +52,8 @@ class RvHolder extends RecyclerView.ViewHolder {
 }
 ```
 参数为View。
+#### 在其它地方使用
+除了以上的使用，在很多场合也能使用到，例如PopupWindow，Dialog等等，凡是出现View需要进行适配的地方都能使用，使用方法参考Fragment和ViewHolder。
 ## 展示
 <table><tr>
     <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
