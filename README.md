@@ -17,7 +17,7 @@ testSize进行适配，自定义属性请在代码中实现。
        变动，这时候你就要py交易了，当然你也可以在用到新图纸的地方重新设置设计尺寸或者写适配文件，将所有可能用到的px值列出来，样
        式改变时只要在适配文件中进行乘法或除法，不过这样会造成不好维护，建议在一个项目中还是使用统一样式。
 ## 使用
-### 依赖
+### 依赖（未审核）
      compile 'com.wuyifeng:AutoUtils:1.0.0'
 ### 代码
 #### 初始化设计稿
@@ -40,7 +40,18 @@ public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
     return v;
 }
 ```
-参数为View
+参数为View。
+#### 在ViewHolder中使用
+```Java
+class RvHolder extends RecyclerView.ViewHolder {
+    public RvHolder(View itemView) {
+        super(itemView);
+        // 在ViewHolder中使用
+        AutoUtils.auto(itemView);
+    }
+}
+```
+参数为View。
 ## 展示
 <table><tr>
     <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
