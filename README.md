@@ -52,6 +52,14 @@ class RvHolder extends RecyclerView.ViewHolder {
 }
 ```
 参数为View。
+#### 自定义属性使用
+下面举个类似的例子，其它可参考这个写
+```Java
+tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, AutoUtils.getTextSize(40));
+ViewGroup.LayoutParams lp = tv.getLayoutParams();
+lp.width = AutoUtils.getDisplayValue(1080);
+tv.setLayoutParams(lp);
+```
 #### 在其它地方使用
 除了以上的使用，在很多场合也能使用到，例如PopupWindow，Dialog等等，凡是出现View需要进行适配的地方都能使用，使用方法参考Fragment和ViewHolder。
 ## 展示

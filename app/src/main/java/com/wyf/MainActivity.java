@@ -6,6 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.wyf.auto.AutoUtils;
@@ -38,5 +39,8 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.tv3);
         // 模拟自定义属性使用
         tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, AutoUtils.getTextSize(40));
+        ViewGroup.LayoutParams lp = tv.getLayoutParams();
+        lp.width = AutoUtils.getDisplayValue(1080);
+        tv.setLayoutParams(lp);
     }
 }
