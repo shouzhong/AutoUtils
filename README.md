@@ -18,6 +18,7 @@ testSize进行适配，自定义属性请在代码中实现。
        式改变时只要在适配文件中进行乘法或除法，不过这样会造成不好维护，建议在一个项目中还是使用统一样式。
 ## 使用
 ### 1.依赖
+     compile 'com.wuyifeng:AutoUtils:1.0.0'
 ## 展示
 <table><tr>
     <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
