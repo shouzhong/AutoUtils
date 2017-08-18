@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="540px"
+    android:layout_height="600px">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:src="@drawable/pic"
+        android:layout_marginTop="30px"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv1"
+        android:textSize="40px"
+        android:layout_marginLeft="20px"
+        android:text="啊啊啊啊啊啊啊啊啊啊啊啊"/>
+
+</RelativeLayout>
