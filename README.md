@@ -19,5 +19,4 @@ testSize进行适配，自定义属性请在代码中实现。
 ## 展示
 <img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/>
 <img width="288" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.png"/>
-</br>
 左边图为分辨率为1080*1920的屏幕，右边图为480*800的屏幕，可以看出，在2个屏幕上都能很好的显示。
