@@ -26,6 +26,30 @@ testSize进行适配，自定义属性请在代码中实现。
 AutoUtils.init(this, 1080, true);
 ```
 第一个参数为Context，第二个参数为设计稿尺寸，第三个参数为是否为宽度。
+#### 在xml布局中使用
+```Html
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="540px"
+    android:layout_height="600px">
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:src="@drawable/pic"
+        android:layout_marginTop="30px"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv1"
+        android:textSize="40px"
+        android:layout_marginLeft="20px"
+        android:text="啊啊啊啊啊啊啊啊啊啊啊啊"/>
+</RelativeLayout>
+```
 #### 在Activity中使用
 在setContentView后调用
 ```Java
