@@ -1,6 +1,6 @@
 # AutoUtils
 ## 说明
-   安卓屏幕适配方案，看了很多大神们的方案，最符合要求的是hongyang大神的方案，但是由于屏幕比例的问题（15：9，16：9，17：9等等），导致显示会变形，本方案是只取一边长度进行适配，在zhengjingle的AutoUtils上进行修改。本方案只进行margin，padding，height，width，testSize进行适配，自定义属性请在代码中实现。
+>>安卓屏幕适配方案，看了很多大神们的方案，最符合要求的是hongyang大神的方案，但是由于屏幕比例的问题（15：9，16：9，17：9等等），导致显示会变形，本方案是只取一边长度进行适配，在zhengjingle的AutoUtils上进行修改。本方案只进行margin，padding，height，width，testSize进行适配，自定义属性请在代码中实现。
 ## 优点
      1.不用考虑状态栏
      2.对于不同比例屏幕（16:9,17:9等等）展示时不会变形：如图片等
@@ -15,7 +15,6 @@
        除非人事变动，这时候你就要py交易了，当然你也可以在用到新图纸的地方重新设置设计尺寸或者写适配文件，将所有可能用到
        的px值列出来，样式改变时只要在适配文件中进行乘法或除法，不过这样会造成不好维护，建议在一个项目中还是使用统一样式
 ## 展示
-</br>
 <img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/>
 <img width="288" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.png"/>
 </br>
