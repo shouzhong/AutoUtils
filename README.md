@@ -90,10 +90,10 @@ tv.setLayoutParams(lp);
 <table>
     <tr>
         <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
-        <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_4.png"/></td>
+        <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_4.jpg"/></td>
     </tr>
     <tr>
-        <td><img width="270" height="450" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.jpg"/></td>
+        <td><img width="270" height="450" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.png"/></td>
         <td><img width="270" height="450" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_4.png"/></td>
     </tr>
 </table>
