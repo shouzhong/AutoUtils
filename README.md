@@ -91,10 +91,12 @@ tv.setLayoutParams(lp);
     <tr>
         <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
         <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_4.jpg"/></td>
+        <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_5.jpg"/></td>
     </tr>
     <tr>
         <td><img width="270" height="450" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.png"/></td>
         <td><img width="270" height="450" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_4.png"/></td>
+        <td><img width="270" height="450" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_5.png"/></td>
     </tr>
 </table>
 上边图为分辨率为1080*1920的屏幕，下边图为480*800的屏幕，可以看出，在2个屏幕上都能很好的显示。
