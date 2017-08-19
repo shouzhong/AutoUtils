@@ -87,9 +87,15 @@ tv.setLayoutParams(lp);
 #### 在其它地方使用
 除了以上的使用，在很多场合也能使用到，例如PopupWindow，Dialog等等，凡是出现View需要进行适配的地方都能使用，使用方法参考Fragment和ViewHolder。
 ## 展示
-<table><tr>
-    <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
-    <td><img width="288" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.png"/></td>
-</tr></table>
+<table>
+    <tr>
+        <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_3.jpg"/></td>
+        <td><img width="288" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_3.png"/></td>
+    </tr>
+    <tr>
+        <td><img width="270" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/1080_1920_4.jpg"/></td>
+        <td><img width="288" height="480" src="https://github.com/shouzhong/AutoUtils/blob/master/Screenshots/480_800_4.png"/></td>
+    </tr>
+</table>
 左边图为分辨率为1080*1920的屏幕，右边图为480*800的屏幕，可以看出，在2个屏幕上都能很好的显示。
 </br>
