@@ -19,7 +19,7 @@ testSize进行适配，自定义属性请在代码中实现。
 ## 使用
 ### 依赖（审核中）
 ```
-compile 'com.wuyifeng:AutoUtils:1.0.0'
+compile 'com.wuyifeng:AutoUtils:1.0.1'
 ```
 ### 代码
 #### 初始化设计稿

@@ -34,7 +34,7 @@ publish {
     userOrg = 'wuyifeng'//bintray.com用户名
     groupId = 'com.wuyifeng'//jcenter上的路径
     artifactId = 'AutoUtils'//项目名称
-    publishVersion = '1.0.0'//版本号
+    publishVersion = '1.0.1'//版本号
     desc = '屏幕适配方案'//描述，不重要
     website = 'https://bintray.com/wuyifeng'//网站，不重要
 }
